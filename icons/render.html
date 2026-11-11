@@ -1,0 +1,10 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>html,body{margin:0;background:transparent}img{display:block}#sq{background:#3b231b;display:grid;place-items:center}</style>
+<div id="sq"><img id="ic" src="../favicon.svg"></div>
+<script>
+  const s = +new URLSearchParams(location.search).get('s') || 180;
+  const sq = document.getElementById('sq'), ic = document.getElementById('ic');
+  sq.style.width = sq.style.height = s + 'px';
+  ic.width = ic.height = Math.round(s * 1.0);
+</script>

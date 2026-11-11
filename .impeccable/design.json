@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-10T20:00:00Z",
+  "title": "Design System: Dayanne Moura · Estética Facial e Corporal",
+  "extensions": {
+    "colorMeta": {
+      "espresso": {
+        "role": "neutral",
+        "displayName": "Espresso",
+        "canonical": "oklch(19.9% 0.023 37.8)",
+        "tonalRamp": [
+          "#140805",
+          "#2f211d",
+          "#4d3e39",
+          "#6e5d58",
+          "#907e78",
+          "#b3a09b",
+          "#d8c4be",
+          "#fdeae3"
+        ]
+      },
+      "cacau": {
+        "role": "primary",
+        "displayName": "Cacau",
+        "canonical": "oklch(28.5% 0.040 39.2)",
+        "tonalRamp": [
+          "#190501",
+          "#361e16",
+          "#553b32",
+          "#765a51",
+          "#987b71",
+          "#bc9d93",
+          "#e1c1b6",
+          "#ffe6db"
+        ]
+      },
+      "mocha": {
+        "role": "neutral",
+        "displayName": "Mocha",
+        "canonical": "oklch(42.2% 0.061 41.3)",
+        "tonalRamp": [
+          "#1e0100",
+          "#3d190b",
+          "#5d3628",
+          "#7f5646",
+          "#a37666",
+          "#c79988",
+          "#edbdab",
+          "#ffe2cf"
+        ]
+      },
+      "bronze": {
+        "role": "primary",
+        "displayName": "Bronze",
+        "canonical": "oklch(58.3% 0.080 41.9)",
+        "tonalRamp": [
+          "#230000",
+          "#431300",
+          "#65321d",
+          "#88513c",
+          "#ac725c",
+          "#d1957d",
+          "#f7b8a0",
+          "#ffdec5"
+        ]
+      },
+      "rose": {
+        "role": "secondary",
+        "displayName": "Rose",
+        "canonical": "oklch(74.9% 0.066 39.2)",
+        "tonalRamp": [
+          "#200000",
+          "#3f180a",
+          "#5f3527",
+          "#825445",
+          "#a57565",
+          "#ca9787",
+          "#f0bbaa",
+          "#ffe0ce"
+        ]
+      },
+      "nude": {
+        "role": "neutral",
+        "displayName": "Nude",
+        "canonical": "oklch(86.5% 0.036 46.5)",
+        "tonalRamp": [
+          "#170601",
+          "#341f16",
+          "#533c32",
+          "#735b50",
+          "#967c70",
+          "#b99f92",
+          "#dec3b6",
+          "#ffe8da"
+        ]
+      },
+      "blush": {
+        "role": "neutral",
+        "displayName": "Blush",
+        "canonical": "oklch(93.2% 0.019 46.8)",
+        "tonalRamp": [
+          "#120905",
+          "#2d221d",
+          "#4b3f3a",
+          "#6b5e58",
+          "#8d7f79",
+          "#b0a29b",
+          "#d4c6bf",
+          "#faebe4"
+        ]
+      },
+      "pearl": {
+        "role": "neutral",
+        "displayName": "Pearl",
+        "canonical": "oklch(97.1% 0.009 52.1)",
+        "tonalRamp": [
+          "#0e0a08",
+          "#292421",
+          "#46413e",
+          "#66605c",
+          "#87817d",
+          "#aaa4a0",
+          "#cec8c4",
+          "#f4ede9"
+        ]
+      },
+      "gold": {
+        "role": "secondary",
+        "displayName": "Gold",
+        "canonical": "oklch(72.4% 0.069 64.1)",
+        "tonalRamp": [
+          "#1d0200",
+          "#3b1c00",
+          "#5b3915",
+          "#7d5935",
+          "#a07a56",
+          "#c49c77",
+          "#eac09a",
+          "#ffe6be"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero h1 only: the service and the place, in plain words."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2s with one accent italic word."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "h3, row and ticket titles, FAQ summaries, quotes, prices and numerals."
+      },
+      "script": {
+        "displayName": "Signature",
+        "purpose": "One word or short phrase as a hand signature."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text, 38 to 60ch."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Section intros, max 46ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Functional tracked uppercase only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "lift",
+        "value": "0 24px 50px -24px rgba(31,18,14,.45), 0 6px 14px -6px rgba(31,18,14,.16)",
+        "purpose": "Hero photo and chip, portrait, before/after frame and knob."
+      },
+      {
+        "name": "ticket-drop",
+        "value": "0 30px 56px -30px rgba(31,18,14,.7)",
+        "purpose": "Package tickets on rose silk."
+      },
+      {
+        "name": "nav-solid",
+        "value": "0 10px 28px -16px rgba(31,18,14,.35)",
+        "purpose": "Solid nav pill; no backdrop blur."
+      },
+      {
+        "name": "fab-ring",
+        "value": "0 0 0 1px rgba(232,204,191,.4), 0 16px 32px -14px rgba(31,18,14,.6)",
+        "purpose": "Floating WhatsApp."
+      },
+      {
+        "name": "pill-gloss",
+        "value": "inset 0 1px 0 rgba(255,255,255,.35), 0 10px 20px -10px rgba(0,0,0,.6)",
+        "purpose": "Bronze price pill only."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 2px solid #a46b55; outline-offset: 4px",
+        "purpose": "Global focus-visible (bronze)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Default easing for reveals and state transitions."
+      },
+      {
+        "name": "ease-io",
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+        "purpose": "Brush mask draw."
+      },
+      {
+        "name": "reveal",
+        "value": "[data-reveal] opacity 0 + translateY(16px) to rest, .7s ease-out, delay var(--d) x 70ms; IntersectionObserver adds .is-in once (threshold .12, rootMargin -8% bottom)",
+        "purpose": "The only scroll motion."
+      },
+      {
+        "name": "hero-entrance",
+        "value": "[data-hero] opacity 0 + translateY(18px) to rest on html.is-ready, .9s ease-out, delay var(--h) x 90ms",
+        "purpose": "Hero, after the loader."
+      },
+      {
+        "name": "brush-draw",
+        "value": "stroke-dashoffset 1 to 0, 1.1s ease-io, .35s delay; on .is-in or html.is-ready",
+        "purpose": "Brush underline."
+      },
+      {
+        "name": "button-fill",
+        "value": "::before translateY(101%) to 0, .4s ease-out; press scale(.97)",
+        "purpose": "Button hover, fine pointers only."
+      },
+      {
+        "name": "silk-drift",
+        "value": "first light translate3d(0) to (10vw, 6vh), 30s ease-in-out alternate",
+        "purpose": "Silk backgrounds."
+      },
+      {
+        "name": "loader",
+        "value": "first session visit only; CSS keyframes (--k .7): strokes draw, leaves scale(.5) to 1, letters rise, script writes; JS holds min 1.5s, max 2.2s, then .is-out lifts translateY(-100%) .9s cubic-bezier(.76,0,.24,1); hero entrance 350ms later; CSS failsafe 4s",
+        "purpose": "Loader."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animations off, transitions .01ms, no loader, reveal and hero blocks visible, brush drawn",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "1100px"
+      },
+      {
+        "name": "mobile",
+        "value": "860px"
+      },
+      {
+        "name": "small",
+        "value": "560px"
+      }
+    ],
+    "silk": {
+      "rose": {
+        "base": "linear-gradient(160deg, #ecd0c3, #cd9783 55%, #ab735d)",
+        "lights": [
+          "rgba(250,234,226,.9)",
+          "rgba(176,112,88,.55)",
+          "rgba(240,212,199,.7)",
+          "rgba(143,88,69,.45)"
+        ]
+      },
+      "dark": {
+        "base": "linear-gradient(160deg, #3b231b, #26160f 60%, #1a0e0a)",
+        "lights": [
+          "rgba(164,107,85,.45)",
+          "rgba(106,66,51,.6)",
+          "rgba(197,157,120,.25)",
+          "rgba(211,160,143,.18)"
+        ],
+        "sheenOpacity": 0.45
+      },
+      "lightShape": "80vmax circles, radial-gradient(closest-side, color, transparent); no blur",
+      "sheen": "linear-gradient(115deg, transparent 35%, rgba(255,245,238,.18) 47%, transparent 60%)"
+    },
+    "images": "Every <img> carries srcset and sizes."
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Cacau pill; a bronze fill rises from the bottom on hover.",
+      "html": "<button class=\"ds-btn\">Agendar avaliação <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button>",
+      "css": ":host{--espresso:#1f120e;--cacau:#3b231b;--mocha:#6a4233;--bronze:#a46b55;--rose:#d3a08f;--nude:#e8ccbf;--blush:#f4e5de;--pearl:#fbf4f0;--gold:#c59d78;--serif:'Instrument Serif',Didot,Georgia,serif;--sans:Jost,system-ui,sans-serif;--script:Corinthia,cursive;--ease-out:cubic-bezier(.23,1,.32,1);--radius:24px;--panel-r:clamp(28px,4vw,48px);--shadow:0 24px 50px -24px rgba(31,18,14,.45),0 6px 14px -6px rgba(31,18,14,.16);} .ds-btn{--bg:var(--cacau);--fg:var(--pearl);--fill:var(--bronze);display:inline-flex;align-items:center;justify-content:center;gap:.6rem;padding:1rem 1.55rem;border-radius:999px;border:0;background:var(--bg);color:var(--fg);font:500 .98rem/1 var(--sans);letter-spacing:.01em;cursor:pointer;position:relative;overflow:hidden;isolation:isolate;transition:transform .16s var(--ease-out),color .25s} .ds-btn::before{content:'';position:absolute;inset:0;z-index:-1;border-radius:inherit;background:var(--fill);transform:translateY(101%);transition:transform .4s var(--ease-out)} .ds-btn:hover::before{transform:none} .ds-btn:active{transform:scale(.97)} .ds-btn:focus-visible{outline:2px solid var(--bronze);outline-offset:4px} .ds-btn svg{width:1.15em;height:1.15em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;transition:transform .3s var(--ease-out)} .ds-btn:hover svg{transform:translateX(3px)} .ds-btn--light{--bg:var(--pearl);--fg:var(--cacau);--fill:var(--nude)} .ds-btn--ghost{--bg:transparent;--fg:var(--cacau);--fill:var(--cacau);box-shadow:inset 0 0 0 1px rgba(59,35,27,.35)} .ds-btn--ghost:hover{color:var(--pearl)} .ds-btn--sm{padding:.72rem 1.15rem;font-size:.9rem}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary hero CTA: cacau ring that fills cacau on hover.",
+      "html": "<div style=\"background:#f4e5de;padding:24px;display:inline-flex;gap:12px;flex-wrap:wrap\"><button class=\"ds-btn ds-btn--ghost\">Ver tratamentos e preços</button></div>",
+      "css": ":host{--espresso:#1f120e;--cacau:#3b231b;--mocha:#6a4233;--bronze:#a46b55;--rose:#d3a08f;--nude:#e8ccbf;--blush:#f4e5de;--pearl:#fbf4f0;--gold:#c59d78;--serif:'Instrument Serif',Didot,Georgia,serif;--sans:Jost,system-ui,sans-serif;--script:Corinthia,cursive;--ease-out:cubic-bezier(.23,1,.32,1);--radius:24px;--panel-r:clamp(28px,4vw,48px);--shadow:0 24px 50px -24px rgba(31,18,14,.45),0 6px 14px -6px rgba(31,18,14,.16);} .ds-btn{--bg:var(--cacau);--fg:var(--pearl);--fill:var(--bronze);display:inline-flex;align-items:center;justify-content:center;gap:.6rem;padding:1rem 1.55rem;border-radius:999px;border:0;background:var(--bg);color:var(--fg);font:500 .98rem/1 var(--sans);letter-spacing:.01em;cursor:pointer;position:relative;overflow:hidden;isolation:isolate;transition:transform .16s var(--ease-out),color .25s} .ds-btn::before{content:'';position:absolute;inset:0;z-index:-1;border-radius:inherit;background:var(--fill);transform:translateY(101%);transition:transform .4s var(--ease-out)} .ds-btn:hover::before{transform:none} .ds-btn:active{transform:scale(.97)} .ds-btn:focus-visible{outline:2px solid var(--bronze);outline-offset:4px} .ds-btn svg{width:1.15em;height:1.15em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;transition:transform .3s var(--ease-out)} .ds-btn:hover svg{transform:translateX(3px)} .ds-btn--light{--bg:var(--pearl);--fg:var(--cacau);--fill:var(--nude)} .ds-btn--ghost{--bg:transparent;--fg:var(--cacau);--fill:var(--cacau);box-shadow:inset 0 0 0 1px rgba(59,35,27,.35)} .ds-btn--ghost:hover{color:var(--pearl)} .ds-btn--sm{padding:.72rem 1.15rem;font-size:.9rem}"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Pearl pill for dark grounds; fills nude on hover.",
+      "html": "<div style=\"background:#3b231b;padding:24px;display:inline-flex;gap:12px\"><button class=\"ds-btn ds-btn--light\">Quero o Pacote 1 <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button></div>",
+      "css": ":host{--espresso:#1f120e;--cacau:#3b231b;--mocha:#6a4233;--bronze:#a46b55;--rose:#d3a08f;--nude:#e8ccbf;--blush:#f4e5de;--pearl:#fbf4f0;--gold:#c59d78;--serif:'Instrument Serif',Didot,Georgia,serif;--sans:Jost,system-ui,sans-serif;--script:Corinthia,cursive;--ease-out:cubic-bezier(.23,1,.32,1);--radius:24px;--panel-r:clamp(28px,4vw,48px);--shadow:0 24px 50px -24px rgba(31,18,14,.45),0 6px 14px -6px rgba(31,18,14,.16);} .ds-btn{--bg:var(--cacau);--fg:var(--pearl);--fill:var(--bronze);display:inline-flex;align-items:center;justify-content:center;gap:.6rem;padding:1rem 1.55rem;border-radius:999px;border:0;background:var(--bg);color:var(--fg);font:500 .98rem/1 var(--sans);letter-spacing:.01em;cursor:pointer;position:relative;overflow:hidden;isolation:isolate;transition:transform .16s var(--ease-out),color .25s} .ds-btn::before{content:'';position:absolute;inset:0;z-index:-1;border-radius:inherit;background:var(--fill);transform:translateY(101%);transition:transform .4s var(--ease-out)} .ds-btn:hover::before{transform:none} .ds-btn:active{transform:scale(.97)} .ds-btn:focus-visible{outline:2px solid var(--bronze);outline-offset:4px} .ds-btn svg{width:1.15em;height:1.15em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;transition:transform .3s var(--ease-out)} .ds-btn:hover svg{transform:translateX(3px)} .ds-btn--light{--bg:var(--pearl);--fg:var(--cacau);--fill:var(--nude)} .ds-btn--ghost{--bg:transparent;--fg:var(--cacau);--fill:var(--cacau);box-shadow:inset 0 0 0 1px rgba(59,35,27,.35)} .ds-btn--ghost:hover{color:var(--pearl)} .ds-btn--sm{padding:.72rem 1.15rem;font-size:.9rem}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-bar-solid",
+      "description": "Solid pearl pill with line links; current link in bronze.",
+      "html": "<nav class=\"ds-nav\"><span class=\"ds-brand\"><b>Dayanne Moura</b><small>Estética Avançada</small></span><ul><li><a href=\"#\" class=\"ds-link\" aria-current=\"true\">Tratamentos</a></li><li><a href=\"#\" class=\"ds-link\">Pacotes</a></li><li><a href=\"#\" class=\"ds-link\">Dúvidas</a></li></ul></nav>",
+      "css": ":host{--espresso:#1f120e;--cacau:#3b231b;--mocha:#6a4233;--bronze:#a46b55;--rose:#d3a08f;--nude:#e8ccbf;--blush:#f4e5de;--pearl:#fbf4f0;--gold:#c59d78;--serif:'Instrument Serif',Didot,Georgia,serif;--sans:Jost,system-ui,sans-serif;--script:Corinthia,cursive;--ease-out:cubic-bezier(.23,1,.32,1);--radius:24px;--panel-r:clamp(28px,4vw,48px);--shadow:0 24px 50px -24px rgba(31,18,14,.45),0 6px 14px -6px rgba(31,18,14,.16);} .ds-nav{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding:.8rem 1.4rem;border-radius:999px;background:rgba(251,244,240,.92);box-shadow:0 10px 28px -16px rgba(31,18,14,.35);color:var(--cacau);font-family:var(--sans)} .ds-brand b{display:block;font-weight:500;font-size:.74rem;letter-spacing:.26em;text-transform:uppercase;line-height:1.3} .ds-brand small{display:block;font-size:.6rem;letter-spacing:.32em;text-transform:uppercase;opacity:.7} .ds-nav ul{display:flex;gap:1.7rem;list-style:none;margin:0;padding:0;font-size:.93rem} .ds-link{position:relative;color:inherit;text-decoration:none;padding:.3rem 0} .ds-link::after{content:'';position:absolute;left:0;right:0;bottom:-1px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .4s var(--ease-out)} .ds-link[aria-current='true']{color:var(--bronze)} .ds-link:hover::after,.ds-link:focus-visible::after,.ds-link[aria-current='true']::after{transform:scaleX(1);transform-origin:left} .ds-link:focus-visible{outline:2px solid var(--bronze);outline-offset:4px}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "custom",
+      "description": "1px base line at 30% with a solid sweep on hover.",
+      "html": "<p class=\"ds-p\">Não achou sua resposta? <a class=\"ds-uline\" href=\"#\">Pergunte no WhatsApp</a>.</p>",
+      "css": ":host{--espresso:#1f120e;--cacau:#3b231b;--mocha:#6a4233;--bronze:#a46b55;--rose:#d3a08f;--nude:#e8ccbf;--blush:#f4e5de;--pearl:#fbf4f0;--gold:#c59d78;--serif:'Instrument Serif',Didot,Georgia,serif;--sans:Jost,system-ui,sans-serif;--script:Corinthia,cursive;--ease-out:cubic-bezier(.23,1,.32,1);--radius:24px;--panel-r:clamp(28px,4vw,48px);--shadow:0 24px 50px -24px rgba(31,18,14,.45),0 6px 14px -6px rgba(31,18,14,.16);} .ds-p{font:400 1.05rem/1.65 var(--sans);color:var(--cacau)} .ds-uline{color:inherit;text-decoration:none;font-weight:500;padding-bottom:3px;background-image:linear-gradient(currentColor,currentColor),linear-gradient(color-mix(in srgb,currentColor 30%,transparent),color-mix(in srgb,currentColor 30%,transparent));background-size:0% 1px,100% 1px;background-position:100% 100%,0 100%;background-repeat:no-repeat;transition:background-size .45s var(--ease-out)} .ds-uline:hover,.ds-uline:focus-visible{background-size:100% 1px,100% 1px;background-position:0 100%,0 100%} .ds-uline:focus-visible{outline:2px solid var(--bronze);outline-offset:4px}"
+    },
+    {
+      "name": "Treatment Row",
+      "kind": "card",
+      "refersTo": "treatment-row",
+      "description": "Blush row: photo, body with chips, price plus Agendar.",
+      "html": "<article class=\"ds-row\"><div class=\"ds-row__img\"></div><div class=\"ds-row__body\"><h3><svg class=\"ds-ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"9\" cy=\"14.5\" r=\"5.5\"/><circle cx=\"16.8\" cy=\"8.6\" r=\"3.6\"/><circle cx=\"17.6\" cy=\"17.4\" r=\"2.1\"/><path d=\"M6.4 13.2a2.6 2.6 0 0 1 2.6-2.4\"/></svg>Limpeza Facial Express</h3><p>Higienização, esfoliação e máscara calmante.</p><ul class=\"ds-chips\"><li>Higienização</li><li>Esfoliação</li><li>Protetor solar</li></ul></div><div class=\"ds-row__side\"><span class=\"ds-price\"><small>R$</small>150</span><button class=\"ds-btn ds-btn--sm\">Agendar <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button></div></article>",
+      "css": ":host{--espresso:#1f120e;--cacau:#3b231b;--mocha:#6a4233;--bronze:#a46b55;--rose:#d3a08f;--nude:#e8ccbf;--blush:#f4e5de;--pearl:#fbf4f0;--gold:#c59d78;--serif:'Instrument Serif',Didot,Georgia,serif;--sans:Jost,system-ui,sans-serif;--script:Corinthia,cursive;--ease-out:cubic-bezier(.23,1,.32,1);--radius:24px;--panel-r:clamp(28px,4vw,48px);--shadow:0 24px 50px -24px rgba(31,18,14,.45),0 6px 14px -6px rgba(31,18,14,.16);} .ds-btn{--bg:var(--cacau);--fg:var(--pearl);--fill:var(--bronze);display:inline-flex;align-items:center;justify-content:center;gap:.6rem;padding:1rem 1.55rem;border-radius:999px;border:0;background:var(--bg);color:var(--fg);font:500 .98rem/1 var(--sans);letter-spacing:.01em;cursor:pointer;position:relative;overflow:hidden;isolation:isolate;transition:transform .16s var(--ease-out),color .25s} .ds-btn::before{content:'';position:absolute;inset:0;z-index:-1;border-radius:inherit;background:var(--fill);transform:translateY(101%);transition:transform .4s var(--ease-out)} .ds-btn:hover::before{transform:none} .ds-btn:active{transform:scale(.97)} .ds-btn:focus-visible{outline:2px solid var(--bronze);outline-offset:4px} .ds-btn svg{width:1.15em;height:1.15em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;transition:transform .3s var(--ease-out)} .ds-btn:hover svg{transform:translateX(3px)} .ds-btn--light{--bg:var(--pearl);--fg:var(--cacau);--fill:var(--nude)} .ds-btn--ghost{--bg:transparent;--fg:var(--cacau);--fill:var(--cacau);box-shadow:inset 0 0 0 1px rgba(59,35,27,.35)} .ds-btn--ghost:hover{color:var(--pearl)} .ds-btn--sm{padding:.72rem 1.15rem;font-size:.9rem} .ds-row{display:grid;grid-template-columns:160px minmax(0,1fr) auto;gap:2rem;align-items:center;padding:1.1rem 1.8rem 1.1rem 1.1rem;border-radius:var(--radius);background:var(--blush);color:var(--cacau);font-family:var(--sans)} .ds-row__img{align-self:stretch;min-height:140px;border-radius:16px;background:radial-gradient(90% 70% at 30% 25%,var(--nude),var(--rose) 60%,var(--bronze))} .ds-row h3{display:flex;align-items:center;gap:.45rem;margin:0 0 .45rem;font:400 1.9rem/1.08 var(--serif);letter-spacing:-.01em} .ds-ic{width:.8em;height:.8em;fill:none;stroke:var(--bronze);stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round} .ds-row p{margin:0;color:var(--mocha)} .ds-chips{display:flex;flex-wrap:wrap;gap:.4rem;margin:.9rem 0 0;padding:0;list-style:none} .ds-chips li{font-size:.78rem;padding:.3rem .7rem;border-radius:999px;background:var(--pearl);color:var(--cacau)} .ds-row__side{display:grid;justify-items:end;gap:.9rem} .ds-price{font:400 2.6rem/1 var(--serif);white-space:nowrap;font-variant-numeric:lining-nums} .ds-price small{font:400 .38em var(--sans);letter-spacing:.08em;vertical-align:.95em;margin-right:.25em}"
+    },
+    {
+      "name": "Package Ticket",
+      "kind": "card",
+      "refersTo": "ticket",
+      "description": "Cacau ticket with notches, tear line, bronze pill and the 5x installment value.",
+      "html": "<article class=\"ds-ticket\"><h3>Pacote <em>1</em></h3><ul><li>2 Limpezas Express</li><li>Microagulhamento</li><li>Dermaplaning</li></ul><span class=\"ds-bonus\">Bônus: Hidratação Labial</span><div class=\"ds-cut\"></div><div class=\"ds-tp\"><span class=\"ds-pill\"><small>R$</small>560</span><span class=\"ds-terms\">ou 5x de<br>R$ 112 sem juros</span></div><button class=\"ds-btn ds-btn--light\">Quero o Pacote 1 <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button></article>",
+      "css": ":host{--espresso:#1f120e;--cacau:#3b231b;--mocha:#6a4233;--bronze:#a46b55;--rose:#d3a08f;--nude:#e8ccbf;--blush:#f4e5de;--pearl:#fbf4f0;--gold:#c59d78;--serif:'Instrument Serif',Didot,Georgia,serif;--sans:Jost,system-ui,sans-serif;--script:Corinthia,cursive;--ease-out:cubic-bezier(.23,1,.32,1);--radius:24px;--panel-r:clamp(28px,4vw,48px);--shadow:0 24px 50px -24px rgba(31,18,14,.45),0 6px 14px -6px rgba(31,18,14,.16);} .ds-btn{--bg:var(--cacau);--fg:var(--pearl);--fill:var(--bronze);display:inline-flex;align-items:center;justify-content:center;gap:.6rem;padding:1rem 1.55rem;border-radius:999px;border:0;background:var(--bg);color:var(--fg);font:500 .98rem/1 var(--sans);letter-spacing:.01em;cursor:pointer;position:relative;overflow:hidden;isolation:isolate;transition:transform .16s var(--ease-out),color .25s} .ds-btn::before{content:'';position:absolute;inset:0;z-index:-1;border-radius:inherit;background:var(--fill);transform:translateY(101%);transition:transform .4s var(--ease-out)} .ds-btn:hover::before{transform:none} .ds-btn:active{transform:scale(.97)} .ds-btn:focus-visible{outline:2px solid var(--bronze);outline-offset:4px} .ds-btn svg{width:1.15em;height:1.15em;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;transition:transform .3s var(--ease-out)} .ds-btn:hover svg{transform:translateX(3px)} .ds-btn--light{--bg:var(--pearl);--fg:var(--cacau);--fill:var(--nude)} .ds-btn--ghost{--bg:transparent;--fg:var(--cacau);--fill:var(--cacau);box-shadow:inset 0 0 0 1px rgba(59,35,27,.35)} .ds-btn--ghost:hover{color:var(--pearl)} .ds-btn--sm{padding:.72rem 1.15rem;font-size:.9rem} .ds-ticket{--notch:14px;max-width:340px;display:flex;flex-direction:column;background:var(--cacau);color:var(--nude);border-radius:var(--radius);padding:2.2rem 1.9rem 1.9rem;box-shadow:0 30px 56px -30px rgba(31,18,14,.7);font-family:var(--sans);-webkit-mask:radial-gradient(circle var(--notch) at 0 63%,#0000 98%,#000) left/51% 100% no-repeat,radial-gradient(circle var(--notch) at 100% 63%,#0000 98%,#000) right/51% 100% no-repeat;mask:radial-gradient(circle var(--notch) at 0 63%,#0000 98%,#000) left/51% 100% no-repeat,radial-gradient(circle var(--notch) at 100% 63%,#0000 98%,#000) right/51% 100% no-repeat} .ds-ticket h3{margin:0;font:400 2.5rem/1.08 var(--serif);color:var(--pearl)} .ds-ticket em{color:var(--gold)} .ds-ticket ul{list-style:none;padding:0;margin:1.4rem 0 0;display:grid;gap:.7rem} .ds-bonus{margin-top:1.3rem;align-self:flex-start;font-size:.8rem;font-weight:500;padding:.42rem .85rem;border-radius:999px;background:rgba(197,157,120,.16);color:var(--gold)} .ds-cut{margin:1.5rem -1.9rem;border-top:1.5px dashed rgba(232,204,191,.28)} .ds-tp{display:flex;align-items:center;justify-content:space-between;gap:1rem} .ds-pill{display:inline-flex;align-items:baseline;gap:.3rem;padding:.5rem 1.2rem .55rem;border-radius:999px;background:linear-gradient(120deg,var(--bronze),#c98d74 45%,var(--mocha));color:var(--pearl);font:400 2.5rem/1 var(--serif);font-variant-numeric:lining-nums;box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 10px 20px -10px rgba(0,0,0,.6)} .ds-pill small{font:500 .85rem var(--sans)} .ds-terms{font-size:.82rem;line-height:1.3;text-align:right;color:var(--rose)} .ds-ticket .ds-btn{margin-top:1.3rem}"
+    },
+    {
+      "name": "Rose Silk Panel",
+      "kind": "custom",
+      "description": "CSS silk: linear base, closest-side radial lights, one 30s drift, static sheen; no blur.",
+      "html": "<section class=\"ds-silk\"><i></i><i></i><i></i><i></i><b></b>Pacotes de tratamento <em>facial</em></section>",
+      "css": ":host{--espresso:#1f120e;--cacau:#3b231b;--mocha:#6a4233;--bronze:#a46b55;--rose:#d3a08f;--nude:#e8ccbf;--blush:#f4e5de;--pearl:#fbf4f0;--gold:#c59d78;--serif:'Instrument Serif',Didot,Georgia,serif;--sans:Jost,system-ui,sans-serif;--script:Corinthia,cursive;--ease-out:cubic-bezier(.23,1,.32,1);--radius:24px;--panel-r:clamp(28px,4vw,48px);--shadow:0 24px 50px -24px rgba(31,18,14,.45),0 6px 14px -6px rgba(31,18,14,.16);} .ds-silk{position:relative;overflow:hidden;min-height:260px;border-radius:var(--panel-r) var(--panel-r) 0 0;padding:3rem 2rem;font:400 3rem/1 var(--serif);color:var(--espresso);isolation:isolate;background:linear-gradient(160deg,#ecd0c3,#cd9783 55%,#ab735d)} .ds-silk i{position:absolute;width:80vmax;height:80vmax;border-radius:50%;z-index:-1} .ds-silk i:nth-child(1){left:-25%;top:-40%;background:radial-gradient(closest-side,rgba(250,234,226,.9),transparent);animation:ds-drift 30s ease-in-out infinite alternate} .ds-silk i:nth-child(2){right:-30%;top:-5%;background:radial-gradient(closest-side,rgba(176,112,88,.55),transparent)} .ds-silk i:nth-child(3){left:5%;bottom:-55%;background:radial-gradient(closest-side,rgba(240,212,199,.7),transparent)} .ds-silk i:nth-child(4){right:0;bottom:-40%;background:radial-gradient(closest-side,rgba(143,88,69,.45),transparent)} .ds-silk b{position:absolute;inset:0;z-index:-1;background:linear-gradient(115deg,transparent 35%,rgba(255,245,238,.18) 47%,transparent 60%)} .ds-silk em{color:var(--pearl)} @keyframes ds-drift{from{transform:translate3d(0,0,0)}to{transform:translate3d(10vw,6vh,0)}} @media (prefers-reduced-motion:reduce){.ds-silk i{animation:none}}"
+    },
+    {
+      "name": "Reveal Block",
+      "kind": "custom",
+      "description": "The only scroll motion: fade up 16px over .7s once, staggered by --d x 70ms.",
+      "html": "<div class=\"ds-rv\"><p style=\"--d:0\">Higienização</p><p style=\"--d:1\">Esfoliação</p><p style=\"--d:2\">Extração</p></div>",
+      "css": ":host{--espresso:#1f120e;--cacau:#3b231b;--mocha:#6a4233;--bronze:#a46b55;--rose:#d3a08f;--nude:#e8ccbf;--blush:#f4e5de;--pearl:#fbf4f0;--gold:#c59d78;--serif:'Instrument Serif',Didot,Georgia,serif;--sans:Jost,system-ui,sans-serif;--script:Corinthia,cursive;--ease-out:cubic-bezier(.23,1,.32,1);--radius:24px;--panel-r:clamp(28px,4vw,48px);--shadow:0 24px 50px -24px rgba(31,18,14,.45),0 6px 14px -6px rgba(31,18,14,.16);} .ds-rv{display:grid;gap:.6rem;font:400 1.6rem var(--serif);color:var(--cacau)} .ds-rv p{margin:0;animation:ds-in .7s var(--ease-out) both;animation-delay:calc(var(--d) * 70ms)} @keyframes ds-in{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}} @media (prefers-reduced-motion:reduce){.ds-rv p{animation:none}}"
+    },
+    {
+      "name": "FAQ Item",
+      "kind": "custom",
+      "description": "Native details with a serif summary and a rotating plus/minus circle.",
+      "html": "<details class=\"ds-faq\" open><summary>Preciso de avaliação antes?<i></i></summary><p>Sim. Todo tratamento começa por uma avaliação da sua pele.</p></details>",
+      "css": ":host{--espresso:#1f120e;--cacau:#3b231b;--mocha:#6a4233;--bronze:#a46b55;--rose:#d3a08f;--nude:#e8ccbf;--blush:#f4e5de;--pearl:#fbf4f0;--gold:#c59d78;--serif:'Instrument Serif',Didot,Georgia,serif;--sans:Jost,system-ui,sans-serif;--script:Corinthia,cursive;--ease-out:cubic-bezier(.23,1,.32,1);--radius:24px;--panel-r:clamp(28px,4vw,48px);--shadow:0 24px 50px -24px rgba(31,18,14,.45),0 6px 14px -6px rgba(31,18,14,.16);} .ds-faq{background:var(--blush);border-block:1px solid rgba(106,66,51,.2);font-family:var(--sans);color:var(--cacau);padding:0 1rem} .ds-faq summary{list-style:none;cursor:pointer;padding:1.4rem 0;display:flex;justify-content:space-between;align-items:center;gap:1.5rem;font:400 1.6rem/1.15 var(--serif)} .ds-faq summary::-webkit-details-marker{display:none} .ds-faq summary:focus-visible{outline:2px solid var(--bronze);outline-offset:4px} .ds-faq i{position:relative;width:34px;height:34px;border-radius:50%;border:1px solid rgba(106,66,51,.35);flex:none;transition:background-color .25s,transform .4s var(--ease-out)} .ds-faq i::before,.ds-faq i::after{content:'';position:absolute;left:50%;top:50%;width:12px;height:1.5px;background:var(--cacau);translate:-50% -50%;transition:transform .35s var(--ease-out)} .ds-faq i::after{transform:rotate(90deg)} .ds-faq[open] i{background:var(--cacau);transform:rotate(180deg)} .ds-faq[open] i::before,.ds-faq[open] i::after{background:var(--pearl)} .ds-faq[open] i::after{transform:rotate(0)} .ds-faq p{margin:0;padding:0 0 1.5rem;color:var(--mocha);max-width:60ch}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Skin Over Silk",
+    "overview": "Skin is the subject and silk is only the lining. The first thing to win is clarity: within seconds a visitor should know what this is, where it is, what it costs and how to book. The hero is a calm split on a blush ground. The copy is on the left: a hand signature, a plain-language headline with one brushed word, a short lede, two buttons and three facts. On the right, the photograph sits in a rounded card with a pearl price chip. Below the hero, the page is a stack of rounded panels, each rising over the last, in a fixed rhythm of solid grounds. Silk appears only behind packages, contact and the menu drawer. It is static CSS gradients with one slow drift.\n\nThe type voice is a soft editorial. Instrument Serif runs large with italic words carrying the colour. Corinthia signs single words, and Jost reads cleanly and holds the small tracked labels. The hand-drawn gold brush survives as the single decorative gesture. Prices are always visible as plain numbers. Treatments read as rows, with photo, description, price and a booking button in a single line of sight. Packages are cacao tickets with punched notches, bronze price pills and the 5x installment written out.\n\nMotion is calm and never tied to scroll position. Each block fades up once as it arrives, and the hero enters once after the loader. Scrolling is native.",
+    "keyCharacteristics": [
+      "Light split hero: copy left, photo card right, price visible in the first viewport.",
+      "Rounded panels that overlap the previous one, in a fixed light/dark rhythm.",
+      "CSS silk (rose or dark) only on packages, contact and the drawer.",
+      "Instrument Serif with coloured italics, Corinthia signatures, Jost body and labels.",
+      "Brown, rose-bronze and nude only.",
+      "One reveal per block (opacity plus a 16px rise, once). No scroll-linked animation, no libraries."
+    ],
+    "rules": [
+      {
+        "name": "The Ground Picks the Italic Rule",
+        "body": "Italic heading words take bronze on blush and pearl, gold on cacau and espresso, rose on dark silk and pearl on rose silk. Never use the same italic colour on every ground.",
+        "section": "colors"
+      },
+      {
+        "name": "The Panel Rhythm Rule",
+        "body": "Below the blush hero the panels alternate in this order: cacau why, pearl treatments, rose-silk packages, espresso how-it-works, blush results, pearl about, cacau voices, blush FAQ, dark-silk contact. Two adjacent panels never share a ground.",
+        "section": "colors"
+      },
+      {
+        "name": "The Warm Shadow Rule",
+        "body": "Every shadow and hairline is a tint of espresso, mocha, nude or gold. Pure black appears only in the before/after divider glow and the pill's under-shadow.",
+        "section": "colors"
+      },
+      {
+        "name": "The Signature Rule",
+        "body": "Corinthia sets one word or a short phrase as a hand signature. It never sets a sentence of copy.",
+        "section": "typography"
+      },
+      {
+        "name": "The Plain Headline Rule",
+        "body": "The hero h1 says what the service is and where it is offered. Poetry belongs in the lede and the quote, never in place of the service name.",
+        "section": "typography"
+      },
+      {
+        "name": "The Rising Sheet Rule",
+        "body": "Depth between sections comes from rounded panels overlapping, never from drop shadows on the panels themselves.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Silk Is Lining Rule",
+        "body": "Silk is a material behind content, never a fill for cards or text boxes. It appears only as `.silk--rose` (packages) or `.silk--dark` (contact, drawer). It is built from a linear base, four large `closest-side` radial lights, one of which drifts on a 30s transform loop, and a static diagonal sheen. No blur filters.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do state the service, place, starting price and booking path in the first viewport.",
+      "Do build new sections as panels: top corners rounded with `--panel-r`, a negative top margin of the same size, and a ground that keeps the light/dark rhythm.",
+      "Do colour italic heading words by their ground: bronze on light, gold on cacau and espresso, rose on dark silk, pearl on rose silk.",
+      "Do present services as rows with photo, body, price and an Agendar button side by side.",
+      "Do write prices in the serif with lining figures, and spell out the 5x installment value beside package prices.",
+      "Do use `[data-reveal]` (with `--d` for siblings) as the only scroll motion, once per block.",
+      "Do keep interactive surfaces as full pills and containers at 24px.",
+      "Do draw new icons on the 24-unit grid with round caps and a 1.1 to 1.6 stroke, in bronze on light grounds and gold on dark ones.",
+      "Do ship every image with `srcset` and `sizes`.",
+      "Do gate hover effects to `(hover: hover) and (pointer: fine)`."
+    ],
+    "donts": [
+      "Don't introduce a cool or grey hue. The palette is brown, rose-bronze and nude only.",
+      "Don't set the hero text over a dark photograph. Keep the hero light and split.",
+      "Don't pin, scrub, or tie animation to scroll position, and don't add animation libraries or smooth-scroll hijacking.",
+      "Don't use blur filters or full-page overlays.",
+      "Don't put drop shadows on panels or use hard offset shadows anywhere.",
+      "Don't use more than one brush stroke per panel.",
+      "Don't fill before/after or testimonials with stock or invented content. Keep the marked placeholder until real material arrives.",
+      "Don't add small uppercase labels above section headlines. Headlines open panels on their own.",
+      "Don't hold visitors at the loader longer than 2.2s or show it again in the same session."
+    ]
+  }
+}

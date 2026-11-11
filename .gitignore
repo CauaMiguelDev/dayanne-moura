@@ -1,0 +1,15 @@
+# Ferramentas e artefatos locais (não fazem parte do site)
+.playwright-mcp/
+.impeccable/review/
+.claude/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependências (caso adicione build no futuro)
+node_modules/
+
+# Resíduos de ferramenta do Impeccable
+.impeccable/questions/
